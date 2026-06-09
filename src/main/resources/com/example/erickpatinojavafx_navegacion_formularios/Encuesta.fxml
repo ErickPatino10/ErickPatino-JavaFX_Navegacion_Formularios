@@ -1,14 +1,44 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<?import java.lang.*?>
-<?import java.util.*?>
-<?import javafx.scene.*?>
 <?import javafx.scene.control.*?>
 <?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
 
-<AnchorPane xmlns="http://javafx.com/javafx"
-            xmlns:fx="http://javafx.com/fxml"
-            fx:controller="CONTROLLER_NAME"
-            prefHeight="400.0" prefWidth="600.0">
-
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17.0.12" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.erickpatinojavafx_navegacion_formularios.EncuestaController">
+   <children>
+      <Label layoutX="264.0" layoutY="14.0" text="Encuesta ">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </Label>
+      <TextField fx:id="txtB1" layoutX="55.0" layoutY="85.0" prefHeight="26.0" prefWidth="288.0" />
+      <TextField fx:id="txtB2" layoutX="56.0" layoutY="152.0" prefHeight="26.0" prefWidth="288.0" />
+      <TextField fx:id="txtB3" layoutX="56.0" layoutY="212.0" prefHeight="26.0" prefWidth="288.0" />
+      <TextField fx:id="txtB4" layoutX="57.0" layoutY="285.0" prefHeight="26.0" prefWidth="288.0" />
+      <Label layoutX="57.0" layoutY="47.0" text="1. ¿Capital de Ecuador?">
+         <font>
+            <Font size="17.0" />
+         </font></Label>
+      <Label layoutX="55.0" layoutY="125.0" text="2. ¿Cuál es el océano más grande del mundo?">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </Label>
+      <Label layoutX="55.0" layoutY="186.0" text="3. ¿Cuántos continentes hay?">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </Label>
+      <Label layoutX="56.0" layoutY="250.0" text="4. ¿Cuál es el planeta rojo?">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </Label>
+      <Label fx:id="lbResultado" layoutX="57.0" layoutY="329.0" prefHeight="26.0" prefWidth="383.0">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <Button fx:id="btCalificar" layoutX="381.0" layoutY="279.0" mnemonicParsing="false" onAction="#calificar" prefHeight="38.0" prefWidth="118.0" text="Calificar" />
+   </children>
 </AnchorPane>
