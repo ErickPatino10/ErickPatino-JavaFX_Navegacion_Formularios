@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17.0.12" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.erickpatinojavafx_navegacion_formularios.EncuestaController">
+    <children>
+        <Label layoutX="286.0" layoutY="6.0" text="Cajero" />
+        <Label layoutX="61.0" layoutY="192.0" text="Nombre" />
+        <TextField fx:id="txtCliente" layoutX="61.0" layoutY="73.0" />
+        <TextField fx:id="txtCedula" layoutX="61.0" layoutY="152.0" />
+        <TextField fx:id="txtNombre" layoutX="61.0" layoutY="227.0" />
+        <Label layoutX="61.0" layoutY="117.0" text="Cedula" />
+        <Label fx:id="lbCliente" layoutX="68.0" layoutY="41.0" text="Cliente" />
+        <Label layoutX="66.0" layoutY="272.0" text="Retiro" />
+        <Spinner fx:id="fbRetiro" layoutX="61.0" layoutY="297.0" />
+        <Button fx:id="btRegistrar" layoutX="392.0" layoutY="50.0" mnemonicParsing="false" text="Registar" />
+        <Label fx:id="lbInformacion" layoutX="414.0" layoutY="109.0" text="Label" />
+    </children>
+</AnchorPane>

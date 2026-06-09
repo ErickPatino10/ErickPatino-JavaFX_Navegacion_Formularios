@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17.0.12" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.erickpatinojavafx_navegacion_formularios.AdminController">
+    <children>
+        <Label layoutX="286.0" layoutY="27.0" text="Administrador" />
+        <Label layoutX="70.0" layoutY="52.0" text="Codigo Producto" />
+        <TextField layoutX="70.0" layoutY="76.0" />
+        <Label layoutX="64.0" layoutY="119.0" text="Nombre Producto" />
+        <Label layoutX="64.0" layoutY="192.0" text="Tipo" />
+        <Label layoutX="56.0" layoutY="265.0" text="Descuento" />
+        <TextField layoutX="70.0" layoutY="148.0" />
+        <TextField layoutX="70.0" layoutY="221.0" />
+        <Spinner layoutX="70.0" layoutY="299.0" />
+        <Button layoutX="390.0" layoutY="62.0" mnemonicParsing="false" prefHeight="17.0" prefWidth="108.0" text="Button" />
+    </children>
+</AnchorPane>
