@@ -11,11 +11,11 @@ public class MainApp extends Application {
     @Override
     public void start(Stage stage) throws Exception {
 
-        FXMLLoader fxmlLoader = new FXMLLoader(MainApp.class.getResource("Login.fxml"));
+        FXMLLoader fxmlLoader = new FXMLLoader(MainApp.class.getResource("Administrador.fxml"));
 
         Scene scene = new Scene(fxmlLoader.load());
 
-        stage.setTitle("Login");
+        stage.setTitle("Admin");
         stage.setScene(scene);
         stage.show();
     }
